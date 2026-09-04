@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Don Carlini Ristorante - Avaliações</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <img
+            src="../img/logoDonCarlini.jpg"
+            width="80"
+            height="80"
+            alt="Logo do Don Carlini Ristorante"
+        >
+
+        <div class="logo">
+            Don Carlini Ristorante
+        </div>
+
+        <!-- Navegação principal -->
+        <nav class="nav-bar" aria-label="Navegação principal">
+            <ul class="nav-list">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="sobreNos.html">Sobre Nós</a></li>
+                <li><a href="cardapio.html">Cardápio</a></li>
+                <li><a href="termosUso.html">Termos de Uso</a></li>
+                <li><a href="faq.html">Perguntas Frequentes</a></li>
+                <li><a href="trabalheCon.html">Trabalhe Conosco</a></li>
+                <li><a href="reservas.html">Reservas</a></li>
+                <li><a href="avaliacoes.html">Avaliações</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contatos.html">Contatos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <h1>Avaliações</h1>
+
+        <p>
+            Confira as opiniões de alguns de nossos clientes sobre suas
+            experiências no Don Carlini Ristorante.
+        </p>
+
+        <section class="avaliacoes" aria-labelledby="titulo-avaliacoes">
+
+            <h2 id="titulo-avaliacoes">
+                O que nossos clientes dizem
+            </h2>
+
+            <article class="avaliacao">
+
+                <header>
+                    <h3>Mariana Silva</h3>
+
+                    <p>
+                        <strong>Avaliação:</strong>
+                        <span aria-label="5 estrelas">
+                            ★★★★★
+                        </span>
+                    </p>
+                </header>
+
+                <p>
+                    Uma experiência excelente! O ambiente é muito agradável,
+                    o atendimento foi atencioso e o Rigatoni estava delicioso.
+                    Com certeza voltarei ao restaurante.
+                </p>
+
+            </article>
+
+            <article class="avaliacao">
+
+                <header>
+                    <h3>Gabriel Oliveira</h3>
+
+                    <p>
+                        <strong>Avaliação:</strong>
+                        <span aria-label="5 estrelas">
+                            ★★★★★
+                        </span>
+                    </p>
+                </header>
+
+                <p>
+                    Fiquei muito satisfeito com a qualidade dos pratos.
+                    A massa estava muito bem preparada e o molho tinha
+                    bastante sabor. Recomendo para quem gosta de culinária
+                    italiana.
+                </p>
+
+            </article>
+
+            <article class="avaliacao">
+
+                <header>
+                    <h3>Beatriz Santos</h3>
+
+                    <p>
+                        <strong>Avaliação:</strong>
+                        <span aria-label="4 estrelas">
+                            ★★★★☆
+                        </span>
+                    </p>
+                </header>
+
+                <p>
+                    O restaurante possui um ambiente bonito e confortável.
+                    O atendimento foi muito bom e a comida estava saborosa.
+                    Gostei bastante da experiência.
+                </p>
+
+            </article>
+
+            <article class="avaliacao">
+
+                <header>
+                    <h3>Lucas Ferreira</h3>
+
+                    <p>
+                        <strong>Avaliação:</strong>
+                        <span aria-label="5 estrelas">
+                            ★★★★★
+                        </span>
+                    </p>
+                </header>
+
+                <p>
+                    Excelente restaurante! Pedi o Fusilli à Calabresa e
+                    achei o prato muito saboroso. A sobremesa também estava
+                    ótima. Pretendo voltar em breve.
+                </p>
+
+            </article>
+
+            <article class="avaliacao">
+
+                <header>
+                    <h3>Camila Rodrigues</h3>
+
+                    <p>
+                        <strong>Avaliação:</strong>
+                        <span aria-label="5 estrelas">
+                            ★★★★★
+                        </span>
+                    </p>
+                </header>
+
+                <p>
+                    O atendimento foi muito cordial desde a chegada.
+                    O ambiente é elegante e a comida é muito bem preparada.
+                    Uma ótima opção para um jantar especial.
+                </p>
+
+            </article>
+
+        </section>
+
+
+        <section class="nova-avaliacao" aria-labelledby="titulo-nova-avaliacao">
+
+            <h2 id="titulo-nova-avaliacao">
+                Deixe sua avaliação
+            </h2>
+
+            <p>
+                Você também pode compartilhar sua experiência no
+                Don Carlini Ristorante.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+
+                    <legend>
+                        Escreva sua avaliação
+                    </legend>
+
+                    <p>
+                        <label for="nome">
+                            Nome:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="nome"
+                            name="nome"
+                            placeholder="Digite seu nome"
+                            autocomplete="name"
+                            required
+                        >
+                    </p>
+
+
+                    <p>
+                        <label for="email">
+                            E-mail:
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="seuemail@exemplo.com"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+
+                    <p>
+                        <label for="nota">
+                            Nota:
+                        </label>
+
+                        <select
+                            id="nota"
+                            name="nota"
+                            required
+                        >
+                            <option value="">
+                                Selecione uma nota
+                            </option>
+
+                            <option value="5">
+                                ★★★★★ - Excelente
+                            </option>
+
+                            <option value="4">
+                                ★★★★☆ - Muito bom
+                            </option>
+
+                            <option value="3">
+                                ★★★☆☆ - Bom
+                            </option>
+
+                            <option value="2">
+                                ★★☆☆☆ - Regular
+                            </option>
+
+                            <option value="1">
+                                ★☆☆☆☆ - Ruim
+                            </option>
+                        </select>
+                    </p>
+
+
+                    <p>
+                        <label for="comentario">
+                            Comentário:
+                        </label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="comentario"
+                            name="comentario"
+                            rows="6"
+                            cols="50"
+                            minlength="10"
+                            maxlength="500"
+                            placeholder="Conte como foi sua experiência..."
+                            required
+                        ></textarea>
+                    </p>
+
+
+                    <p>
+                        <button type="submit">
+                            Enviar avaliação
+                        </button>
+                    </p>
+
+                </fieldset>
+
+            </form>
+
+        </section>
+
+    </main>
+
+
+
+    <footer class="footer">
+
+        <p>
+            Todos os direitos reservados ©2026 Don Carlini Ristorante
+        </p>
+
+    </footer>
+
+</body>
+
+</html>
+
