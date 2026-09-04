@@ -55,8 +55,8 @@ Como é um site estático, não é necessário instalar dependências.
 
 # Autor e Colaboradores
 
-Desenvolvido por Caique Martins Santos.
-Antoni Nsona Senga 
-Aquiles Santana da Silva
-Brenno Lima do Vale
-Eric Jesus Oliveira Calvi
+Desenvolvido por Caique Martins Santos,
+Antoni Nsona Senga, 
+Aquiles Santana da Silva,
+Brenno Lima do Vale,
+Eric Jesus Oliveira Calvi.
