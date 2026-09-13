@@ -59,4 +59,4 @@ Desenvolvido por Caique Martins Santos,
 Antoni Nsona Senga, 
 Aquiles Santana da Silva,
 Brenno Lima do Vale,
-Eric Jesus Oliveira Calvi.
+Erin Jesus Oliveira Calvi.
